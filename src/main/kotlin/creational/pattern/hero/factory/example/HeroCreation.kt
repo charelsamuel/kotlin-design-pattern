@@ -28,14 +28,14 @@ class HeroCreation {
         val name = hero["name"]!! as String
         val hp = hero["hp"]!! as Int
 
-        return when(val heroClass = hero["heroClass"] as String) {
-            "Mage" -> {
+        return when(hero["heroClass"] as String) {
+            HeroClass.MAGE.className -> {
                 val mana = hero["mana"] as Int
-                Mage(name, hp, heroClass, mana)
+                Mage(name, hp, HeroClass.MAGE, mana)
             }
-            "Warrior" -> {
+            HeroClass.WARRIOR.className -> {
                 val stamina = hero["stamina"] as Int
-                Warrior(name, hp, heroClass, stamina)
+                Warrior(name, hp, HeroClass.WARRIOR, stamina)
             }
             else -> throw RuntimeException("Unknown Hero Class")
         }
