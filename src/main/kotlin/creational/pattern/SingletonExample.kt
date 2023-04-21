@@ -17,6 +17,10 @@ class SingletonExample() {
 
 }
 
+/*
+    Kotlin makes creating singletons easy by introducing a keyword called object
+    (Soshin, Alexey. 2022)
+*/
 object Movie {
     var name: String = ""
 }
