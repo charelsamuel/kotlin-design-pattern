@@ -15,3 +15,5 @@ These patterns deal with how and when you create your objects. (Shosin, Alexey. 
  1. [Chess example](https://github.com/charelsamuel/kotlin-design-pattern/tree/main/src/main/kotlin/creational/pattern/chess/factory/example)
  2. [Heroes example](https://github.com/charelsamuel/kotlin-design-pattern/tree/main/src/main/kotlin/creational/pattern/hero/factory/example)
 
+### Static Factory Method
+ 1. [Basic Example](https://github.com/charelsamuel/kotlin-design-pattern/blob/main/src/main/kotlin/creational/pattern/StaticFactoryExample.kt)
