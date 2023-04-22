@@ -1,4 +1,5 @@
 import creational.pattern.SingletonExample
+import creational.pattern.StaticFactoryExample
 import creational.pattern.chess.factory.example.ChessPieceCreation
 import creational.pattern.hero.factory.example.HeroCreation
 
@@ -22,5 +23,9 @@ fun main(args: Array<String>) {
     // Run Another Factory Example Using Heroes UseCase
     val heroCreation = HeroCreation()
     heroCreation.run()
+
+    // Run Static Factory Example
+    StaticFactoryExample(8000)
+    StaticFactoryExample.startServerWithPort(8000)
 }
 
