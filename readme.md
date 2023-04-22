@@ -17,3 +17,6 @@ These patterns deal with how and when you create your objects. (Shosin, Alexey. 
 
 ### Static Factory Method
  1. [Basic Example](https://github.com/charelsamuel/kotlin-design-pattern/blob/main/src/main/kotlin/creational/pattern/StaticFactoryExample.kt)
+
+### Abstract Factory
+ 1. [Basic Example](https://github.com/charelsamuel/kotlin-design-pattern/tree/main/src/main/kotlin/creational/pattern/basic/abstractFactory/example)
